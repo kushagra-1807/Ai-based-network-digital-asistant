@@ -1,0 +1,8 @@
+# Required
+flask>=2.3
+psutil>=5.9
+
+# Optional
+scikit-learn>=1.3     # IsolationForest detector (python run.py web --ml) and the full evaluation
+scapy>=2.5            # active ARP scan, live mode with --scan scapy (needs admin/root)
+speedtest-cli>=2.1    # python run.py speedtest
